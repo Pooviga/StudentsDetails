@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsDetails.UI", "StudentsDetails.UI\StudentsDetails.UI.csproj", "{E94BB690-0036-48D2-906B-0D5947880E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsDetails.UI", "StudentsDetails.UI\StudentsDetails.UI.csproj", "{E94BB690-0036-48D2-906B-0D5947880E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDetails.Model", "StudentDetails.Model\StudentDetails.Model.csproj", "{10D627BC-6DAD-433D-B9AC-20AA19BE9A85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentDetails.Model", "StudentDetails.Model\StudentDetails.Model.csproj", "{10D627BC-6DAD-433D-B9AC-20AA19BE9A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDetails.Rules", "StudentDetails.Rules\StudentDetails.Rules.csproj", "{2F1148D2-ED4C-4BAC-AFD5-415A6FC4A08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentDetails.Rules", "StudentDetails.Rules\StudentDetails.Rules.csproj", "{2F1148D2-ED4C-4BAC-AFD5-415A6FC4A08E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDetails.DataAccess", "StudentDetails.DataAccess\StudentDetails.DataAccess.csproj", "{067FA6E6-2B26-4F92-ADCC-FC1FA317EE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentDetails.DataAccess", "StudentDetails.DataAccess\StudentDetails.DataAccess.csproj", "{067FA6E6-2B26-4F92-ADCC-FC1FA317EE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDetailsFunctionApp", "StudentDetailsFunctionApp\StudentDetailsFunctionApp.csproj", "{CEA0FD96-36F5-4292-8044-0FFAEAB5AD9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{067FA6E6-2B26-4F92-ADCC-FC1FA317EE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067FA6E6-2B26-4F92-ADCC-FC1FA317EE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067FA6E6-2B26-4F92-ADCC-FC1FA317EE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA0FD96-36F5-4292-8044-0FFAEAB5AD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA0FD96-36F5-4292-8044-0FFAEAB5AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA0FD96-36F5-4292-8044-0FFAEAB5AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA0FD96-36F5-4292-8044-0FFAEAB5AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
